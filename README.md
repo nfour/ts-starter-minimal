@@ -1,3 +1,1 @@
-# README
-
-...
+# ts-starter-minimal

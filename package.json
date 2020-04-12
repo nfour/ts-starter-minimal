@@ -2,6 +2,7 @@
   "name": "ts-starter-minimal",
   "version": "0.0.1",
   "scripts": {
+    "start": "ts-node index.ts",
     "build": "tsc"
   },
   "dependencies": {
