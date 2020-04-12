@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "lib",
+    // "declaration": true // If this is a library, uncomment
+  },
+  "exclude": ["node_modules"]
+}

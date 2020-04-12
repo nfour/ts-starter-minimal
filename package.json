@@ -1,0 +1,22 @@
+{
+  "name": "ts-starter-minimal",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint-config-standard-typescript-prettier": "~2.0.1",
+    "ts-node": "~8.8.1",
+    "typescript": "~3.8"
+  },
+  "eslintConfig": {
+    "extends": "standard-typescript-prettier",
+    "plugins": [ "only-warn" ],
+    "parserOptions": { "project": "./tsconfig.json" }
+  },
+  "prettier": "eslint-config-standard-typescript-prettier/prettier",
+  "repository": "github:nfour/ts-starter-minimal",
+  "license": "MIT"
+}
